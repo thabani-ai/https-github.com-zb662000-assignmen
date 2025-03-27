@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center">
+
+    <!-- Input Field where user enters time of day -->
+    <EditText
+        android:id="@+id/editTextTimeOfDay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter time of day (e.g., Morning, Afternoon)"
+        android:inputType="text" />
+
+    <!-- Button to get meal suggestion -->
+    <Button
+        android:id="@+id/buttonGetSuggestion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Get Suggestion"
+        android:layout_marginTop="10dp"/>
+
+    <!-- TextView to display the meal suggestion -->
+    <TextView
+        android:id="@+id/textViewSuggestion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Meal suggestion will appear here"
+        android:textSize="18sp"
+        android:gravity="center"
+        android:layout_marginTop="10dp" />
+
+    <!-- Button to reset the input and suggestion -->
+    <Button
+        android:id="@+id/buttonReset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Reset"
+        android:layout_marginTop="10dp"/>
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="202dp"
+        android:layout_height="369dp"
+        app:srcCompat="@drawable/download" />
+
+</LinearLayout>
+
+
+
+
+
